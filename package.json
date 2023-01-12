@@ -1,0 +1,17 @@
+{
+  "name": "bot-slack-retie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "cmarioep <cmescandonpardo@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.12.2",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
