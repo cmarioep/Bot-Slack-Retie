@@ -10,6 +10,7 @@ const app = new App({
 
 app.message(({ message, say }) => {
     console.log(message.text);
+    say(message.text);
 });
 
 
